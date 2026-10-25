@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: whitelabel-template-from-site
+expected_outcome: |
+  The agent captures the whole front at multiple viewports, extracts tokens, replicates the layout and components wired to brand variables (not hardcoded values), runs whitelabel.py to produce brand.config plus a neutral default theme and a captured-example theme, delivers a theming contract (the minimal variables to change colour, font and logo), ships open-font substitutes and placeholder logo/imagery/copy, and lists the original brand assets to replace. The shipped default is neutral, not the original brand.

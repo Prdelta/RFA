@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: replicate-web-component-shadow-dom
+expected_outcome: |
+  The agent captures the page piercing open shadow roots so web-component internals are analysed (not skipped), resolves oklch colours to real values in the tokens, records container queries separately from media queries, detects the web-component library / Tailwind v4, and reconstructs each custom element as a React component keeping slots/parts/aria. It flags any closed shadow root it could not read.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: capture-from-har-offline
+expected_outcome: |
+  The agent recognises the live site is unreachable, does not fake a capture, runs ingest_har.py to rebuild a local renderable copy from the HAR, captures that offline with capture_page.js, extracts tokens and inventories components from it, and reconstructs in the target stack. It states which content could not be recovered (runtime-fetched resources absent from the HAR).

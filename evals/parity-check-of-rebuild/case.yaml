@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: parity-check-of-rebuild
+expected_outcome: |
+  The agent captures both the original and the rebuild at both viewports with the same options, runs compare_screenshots.py and diff_captures.py --mode parity, reports similarity per viewport, agreement per category, the concrete mismatched nodes with values, prioritises structural differences over cosmetic ones, and does not round a partial match up to identical.

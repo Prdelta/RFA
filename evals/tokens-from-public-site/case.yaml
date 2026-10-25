@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: tokens-from-public-site
+expected_outcome: |
+  The agent captures the page with capture_page.js at least at one viewport, runs extract_tokens.py, delivers a tailwind theme.extend snippet with named colours, fonts, spacing, radii and screens, reports usage counts or evidence, names the font sources and their licence status with an open substitute if needed, and separates measured values from inferences.

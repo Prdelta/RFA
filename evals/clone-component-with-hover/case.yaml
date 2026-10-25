@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: clone-component-with-hover
+expected_outcome: |
+  The agent captures the nav at rest and with --hover or --click on a menu trigger, measures the changed properties and transitions with diff_captures.py, identifies the a11y contract (aria-expanded, roles, Escape), writes a React + Tailwind component with the measured timings, uses placeholder brand/text, and states what could not be captured.
